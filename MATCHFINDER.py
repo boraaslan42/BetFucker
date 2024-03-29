@@ -28,8 +28,16 @@ def load_json(file_path):
     with open(file_path, "r") as file:
         return json.load(file)
 
-# Get all .json files in the directory
-json_files = [file for file in os.listdir() if file.endswith(".json") and file != "games.json" and file != "surebetresults.json" and file != "Multipliers.json" and file != "SUREBETS.json"]
+# Define the folder containing the JSON files
+folder_path = "Betdata"
+
+# Filter out JSON files excluding specific filenames
+json_files = [
+    os.path.join(folder_path, file) 
+    for file in os.listdir(folder_path) 
+    if file.endswith(".json") 
+    and file not in ["games.json", "surebetresults.json", "Multipliers.json", "SUREBETS.json"]
+]
 
 # Prepare output data
 output_data = []
@@ -52,20 +60,16 @@ for i in range(len(json_files)):
             highest_away_odds = max(away_odds1, away_odds2)
             
             # Determine the source of the highest odds for each outcome
-            if highest_home_odds == home_odds1:
-                source_home = json_files[i].replace("_", " ").split(".")[0]
-            else:
-                source_home = json_files[j].replace("_", " ").split(".")[0]
-                
-            if highest_draw_odds == draw_odds1:
-                source_draw = json_files[i].replace("_", " ").split(".")[0]
-            else:
-                source_draw = json_files[j].replace("_", " ").split(".")[0]
-                
-            if highest_away_odds == away_odds1:
-                source_away = json_files[i].replace("_", " ").split(".")[0]
-            else:
-                source_away = json_files[j].replace("_", " ").split(".")[0]
+            source_home = os.path.basename(json_files[i]).split(".")[0]
+            source_draw = os.path.basename(json_files[i]).split(".")[0]
+            source_away = os.path.basename(json_files[i]).split(".")[0]
+            
+            if highest_home_odds != home_odds1:
+                source_home = os.path.basename(json_files[j]).split(".")[0]
+            if highest_draw_odds != draw_odds1:
+                source_draw = os.path.basename(json_files[j]).split(".")[0]
+            if highest_away_odds != away_odds1:
+                source_away = os.path.basename(json_files[j]).split(".")[0]
             
             output_data.append({
                 "Home Team": home_team,
@@ -78,8 +82,14 @@ for i in range(len(json_files)):
                 "Source Away": source_away
             })
 
-# Save output data as JSON
-with open("games.json", "w") as outfile:
+# Save output data as JSON in the Betdata folder
+output_folder = "Intermediatevalues"
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
+
+# Save output data as JSON in the Intermediatevalues folder
+output_file_path = os.path.join(output_folder, "games.json")
+with open(output_file_path, "w") as outfile:
     json.dump(output_data, outfile, indent=4)
 
-print("Output saved as 'games.json'")
+print(f"Output saved as 'games.json' in the {output_folder} folder.")

@@ -1,7 +1,7 @@
 import re
 from bs4 import BeautifulSoup
 import json
-
+import os
 # Sample HTML content
 with open('meridianbet', 'r') as file:
     html_content = file.read()
@@ -54,5 +54,13 @@ for match_info in match_infos:
                 match_data.append(match_dict)
 
 # Save match data as JSON
-with open('meridianbet.json', 'w') as json_file:
+folder_name = "Betdata"
+if not os.path.exists(folder_name):
+    os.makedirs(folder_name)
+
+# Specify the file path including the folder name
+file_path = os.path.join(folder_name, "meridianbet.json")
+
+# Write the JSON data to the file inside the folder
+with open(file_path, 'w') as json_file:
     json.dump(match_data, json_file, indent=4)

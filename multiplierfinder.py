@@ -1,14 +1,16 @@
 import json
+import os
 
-# Load data from surebetresults.json
-with open('surebetresults.json') as f:
+# Load data from surebetresults.json in the Intermediatevalues folder
+input_file_path = os.path.join("Intermediatevalues", "surebetresults.json")
+with open(input_file_path) as f:
     games = json.load(f)
 
 # Define function to calculate delta values
-def calculate_deltas(A, B, C, x, y, z,M):
-    deltaX = M*(B * C) / (A * B + A * C + B * C)
-    deltaY = M*(A * C) / (A * B + A * C + B * C)
-    deltaZ = M*(A * B) / (A * B + A * C + B * C)
+def calculate_deltas(A, B, C, x, y, z, M):
+    deltaX = M * (B * C) / (A * B + A * C + B * C)
+    deltaY = M * (A * C) / (A * B + A * C + B * C)
+    deltaZ = M * (A * B) / (A * B + A * C + B * C)
     return deltaX, deltaY, deltaZ
 
 # Define function to calculate M
@@ -28,19 +30,20 @@ for game in games:
     M = calculate_M(x, y, z)
 
     # Calculate deltas
-    deltaX, deltaY, deltaZ = calculate_deltas(A, B, C, x, y, z,M)
+    deltaX, deltaY, deltaZ = calculate_deltas(A, B, C, x, y, z, M)
 
     # Update bet multiples
     x += deltaX
     y += deltaY
     z += deltaZ
 
-    # Create new table for the game
+    # Update game data
     game['Home Bet Multiple'] = x
     game['Draw Bet Multiple'] = y
     game['Away Bet Multiple'] = z
     game['M'] = M
 
-# Save the updated data to new table
-with open('Multipliers.json', 'w') as f:
+# Save the updated data to Multipliers.json in the Intermediatevalues folder
+output_file_path = os.path.join("Intermediatevalues", "Multipliers.json")
+with open(output_file_path, 'w') as f:
     json.dump(games, f, indent=4)

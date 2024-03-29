@@ -1,7 +1,7 @@
-from bs4 import BeautifulSoup
-from tabulate import tabulate
+import os
 import re
 import json
+from bs4 import BeautifulSoup
 
 # Read the contents of the file
 with open("hatbet", "r") as file:
@@ -52,6 +52,14 @@ for match in matches:
     match_info = {"Home Team": team_names[0], "Away Team": team_names[1], "Home": odds[2], "Draw": odds[3], "Away": odds[4]}
     matches_info.append(match_info)
 
-# Save match data as JSON
-with open('hatbet.json', 'w') as json_file:
+# Create a folder named "Betdata"
+folder_name = "Betdata"
+if not os.path.exists(folder_name):
+    os.makedirs(folder_name)
+
+# Specify the file path including the folder name
+file_path = os.path.join(folder_name, "hatbet.json")
+
+# Save match data as JSON inside the folder
+with open(file_path, 'w') as json_file:
     json.dump(matches_info, json_file, indent=4)

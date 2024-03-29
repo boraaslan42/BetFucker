@@ -1,7 +1,9 @@
 import json
+import os
 
-# Load data from games.json
-with open('games.json') as f:
+# Load data from games.json in the Intermediatevalues folder
+input_file_path = os.path.join("Intermediatevalues", "games.json")
+with open(input_file_path) as f:
     games = json.load(f)
 
 # Define function to calculate smallest multiples exceeding balance
@@ -23,6 +25,7 @@ for game in games:
     game['Draw Bet Multiple'] = draw_multiples.get('Highest Draw Odds', None)
     game['Away Bet Multiple'] = away_multiples.get('Highest Away Odds', None)
 
-# Save the updated data to surebetresults.json
-with open('surebetresults.json', 'w') as f:
+# Save the updated data to surebetresults.json in the Intermediatevalues folder
+output_file_path = os.path.join("Intermediatevalues", "surebetresults.json")
+with open(output_file_path, 'w') as f:
     json.dump(games, f, indent=4)
