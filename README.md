@@ -5,3 +5,7 @@
 Oluşan tableların ve dosya isimlerinin benim oluşturduklarımla consistent olmasına dikkat edilmeli.
 Scraper.py dışında hiçbir dosyanın içeriğiyle oynanmasına gerek yok.
 5)Ana scraperi yazdıktan sonra runlamak için klasörün içine girip ./run.sh yazmak yeterli olacaktır.
+
+
+
+EN İYİ PRACTİCE ANA SCRAPERİN İÇİNE SİTELERİ ÇEKMEK VE ANA SCRAPER DATALARI ÇEKTİKTEN SONRA PYTHON DOSYASI İÇİNDE ./run.sh scriptini çalıştırmak.
