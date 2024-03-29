@@ -1,0 +1,506 @@
+[
+    {
+        "Home Team": "Reus  Reddis",
+        "Away Team": "L Hospitalet",
+        "Home": "2.60",
+        "Draw": "2.95",
+        "Away": "2.55"
+    },
+    {
+        "Home Team": "Carrarese",
+        "Away Team": "Perugia",
+        "Home": "1.98",
+        "Draw": "3.25",
+        "Away": "3.90"
+    },
+    {
+        "Home Team": "Moghayer Al Sarhan",
+        "Away Team": "Aqaba",
+        "Home": "2.55",
+        "Draw": "2.90",
+        "Away": "2.70"
+    },
+    {
+        "Home Team": "Denbigh",
+        "Away Team": "Bangor 1876",
+        "Home": "2.30",
+        "Draw": "4.10",
+        "Away": "2.30"
+    },
+    {
+        "Home Team": "Catania",
+        "Away Team": "Giugliano",
+        "Home": "1.67",
+        "Draw": "3.55",
+        "Away": "5.20"
+    },
+    {
+        "Home Team": "Fermana",
+        "Away Team": "Rimini",
+        "Home": "3.55",
+        "Draw": "3.20",
+        "Away": "2.10"
+    },
+    {
+        "Home Team": "Gubbio",
+        "Away Team": "Torres",
+        "Home": "2.62",
+        "Draw": "2.95",
+        "Away": "2.88"
+    },
+    {
+        "Home Team": "Vis Pesaro",
+        "Away Team": "Lucchese",
+        "Home": "3.25",
+        "Draw": "3.00",
+        "Away": "2.35"
+    },
+    {
+        "Home Team": "Padova",
+        "Away Team": "Pergolettese",
+        "Home": "1.45",
+        "Draw": "4.00",
+        "Away": "7.80"
+    },
+    {
+        "Home Team": "Manaus",
+        "Away Team": "Operario Esporte Clube",
+        "Home": "1.21",
+        "Draw": "5.45",
+        "Away": "10.50"
+    },
+    {
+        "Home Team": "PSG (W)",
+        "Away Team": "Hacken (W)",
+        "Home": "1.26",
+        "Draw": "5.70",
+        "Away": "8.25"
+    },
+    {
+        "Home Team": "Walton & Hersham",
+        "Away Team": "Harrow",
+        "Home": "1.43",
+        "Draw": "4.50",
+        "Away": "5.30"
+    },
+    {
+        "Home Team": "CD Marino",
+        "Away Team": "Atl. Victoria",
+        "Home": "1.56",
+        "Draw": "3.75",
+        "Away": "5.00"
+    },
+    {
+        "Home Team": "Municipal",
+        "Away Team": "Coban Imperial",
+        "Home": "1.63",
+        "Draw": "3.55",
+        "Away": "4.65"
+    },
+    {
+        "Home Team": "Ind. Rivadavia (R)",
+        "Away Team": "River Plate (R)",
+        "Home": "4.40",
+        "Draw": "3.40",
+        "Away": "1.70"
+    },
+    {
+        "Home Team": "Deportivo Garcilaso",
+        "Away Team": "Comerciantes Unidos",
+        "Home": "1.62",
+        "Draw": "3.85",
+        "Away": "4.75"
+    },
+    {
+        "Home Team": "Reus  Reddis",
+        "Away Team": "L Hospitalet",
+        "Home": "2.60",
+        "Draw": "2.95",
+        "Away": "2.55"
+    },
+    {
+        "Home Team": "Carrarese",
+        "Away Team": "Perugia",
+        "Home": "1.98",
+        "Draw": "3.25",
+        "Away": "3.90"
+    },
+    {
+        "Home Team": "Moghayer Al Sarhan",
+        "Away Team": "Aqaba",
+        "Home": "2.55",
+        "Draw": "2.90",
+        "Away": "2.70"
+    },
+    {
+        "Home Team": "Denbigh",
+        "Away Team": "Bangor 1876",
+        "Home": "2.30",
+        "Draw": "4.10",
+        "Away": "2.30"
+    },
+    {
+        "Home Team": "Catania",
+        "Away Team": "Giugliano",
+        "Home": "1.67",
+        "Draw": "3.55",
+        "Away": "5.20"
+    },
+    {
+        "Home Team": "Fermana",
+        "Away Team": "Rimini",
+        "Home": "3.55",
+        "Draw": "3.20",
+        "Away": "2.10"
+    },
+    {
+        "Home Team": "Gubbio",
+        "Away Team": "Torres",
+        "Home": "2.62",
+        "Draw": "2.95",
+        "Away": "2.88"
+    },
+    {
+        "Home Team": "Vis Pesaro",
+        "Away Team": "Lucchese",
+        "Home": "3.25",
+        "Draw": "3.00",
+        "Away": "2.35"
+    },
+    {
+        "Home Team": "Padova",
+        "Away Team": "Pergolettese",
+        "Home": "1.45",
+        "Draw": "4.00",
+        "Away": "7.80"
+    },
+    {
+        "Home Team": "Manaus",
+        "Away Team": "Operario Esporte Clube",
+        "Home": "1.21",
+        "Draw": "5.45",
+        "Away": "10.50"
+    },
+    {
+        "Home Team": "PSG (W)",
+        "Away Team": "Hacken (W)",
+        "Home": "1.26",
+        "Draw": "5.70",
+        "Away": "8.25"
+    },
+    {
+        "Home Team": "Walton & Hersham",
+        "Away Team": "Harrow",
+        "Home": "1.43",
+        "Draw": "4.50",
+        "Away": "5.30"
+    },
+    {
+        "Home Team": "CD Marino",
+        "Away Team": "Atl. Victoria",
+        "Home": "1.56",
+        "Draw": "3.75",
+        "Away": "5.00"
+    },
+    {
+        "Home Team": "Municipal",
+        "Away Team": "Coban Imperial",
+        "Home": "1.63",
+        "Draw": "3.55",
+        "Away": "4.65"
+    },
+    {
+        "Home Team": "Ind. Rivadavia (R)",
+        "Away Team": "River Plate (R)",
+        "Home": "4.40",
+        "Draw": "3.40",
+        "Away": "1.70"
+    },
+    {
+        "Home Team": "Deportivo Garcilaso",
+        "Away Team": "Comerciantes Unidos",
+        "Home": "1.62",
+        "Draw": "3.85",
+        "Away": "4.75"
+    },
+    {
+        "Home Team": "A. Italiano",
+        "Away Team": "Coquimbo",
+        "Home": "2.75",
+        "Draw": "3.10",
+        "Away": "2.55"
+    },
+    {
+        "Home Team": "Chacaritas",
+        "Away Team": "Manta",
+        "Home": "1.69",
+        "Draw": "3.25",
+        "Away": "4.70"
+    },
+    {
+        "Home Team": "Guastatoya",
+        "Away Team": "Coatepeque",
+        "Home": "1.34",
+        "Draw": "4.30",
+        "Away": "7.50"
+    },
+    {
+        "Home Team": "Arturo Fernandez Vial",
+        "Away Team": "Trasandino",
+        "Home": "2.07",
+        "Draw": "3.10",
+        "Away": "3.30"
+    },
+    {
+        "Home Team": "Kawkab Marrakech",
+        "Away Team": "Hassania Agadir",
+        "Home": "2.62",
+        "Draw": "2.85",
+        "Away": "2.65"
+    },
+    {
+        "Home Team": "Maghreb Fes",
+        "Away Team": "IR Tanger",
+        "Home": "2.08",
+        "Draw": "2.95",
+        "Away": "3.40"
+    },
+    {
+        "Home Team": "Cincinnati II",
+        "Away Team": "New York Red Bulls II",
+        "Home": "5.35",
+        "Draw": "4.60",
+        "Away": "1.42"
+    },
+    {
+        "Home Team": "Tuna Luso",
+        "Away Team": "Remo",
+        "Home": "3.80",
+        "Draw": "3.20",
+        "Away": "1.87"
+    },
+    {
+        "Home Team": "Chicago Fire 2",
+        "Away Team": "Philadelphia Union II",
+        "Home": "1.89",
+        "Draw": "3.90",
+        "Away": "3.10"
+    },
+    {
+        "Home Team": "Rosario Central",
+        "Away Team": "Barracas Central",
+        "Home": "2.05",
+        "Draw": "3.05",
+        "Away": "3.80"
+    },
+    {
+        "Home Team": "Belgrano (W)",
+        "Away Team": "Gimnasia L.P. (W)",
+        "Home": "1.95",
+        "Draw": "3.30",
+        "Away": "3.45"
+    },
+    {
+        "Home Team": "O'Higgins",
+        "Away Team": "Deportes Iquique",
+        "Home": "2.04",
+        "Draw": "3.50",
+        "Away": "3.30"
+    },
+    {
+        "Home Team": "Dep. Tachira",
+        "Away Team": "Metropolitanos",
+        "Home": "1.88",
+        "Draw": "3.10",
+        "Away": "4.25"
+    },
+    {
+        "Home Team": "Charlotte Independ.",
+        "Away Team": "Spokane Velocity",
+        "Home": "2.10",
+        "Draw": "3.45",
+        "Away": "2.90"
+    },
+    {
+        "Home Team": "Chelsea",
+        "Away Team": "Burnley",
+        "Home": "1.32",
+        "Draw": "5.45",
+        "Away": "9.00"
+    },
+    {
+        "Home Team": "Tottenham",
+        "Away Team": "Luton",
+        "Home": "1.21",
+        "Draw": "7.60",
+        "Away": "11.20"
+    },
+    {
+        "Home Team": "Brentford",
+        "Away Team": "Manchester Utd",
+        "Home": "3.05",
+        "Draw": "3.80",
+        "Away": "2.20"
+    },
+    {
+        "Home Team": "Liverpool",
+        "Away Team": "Brighton",
+        "Home": "1.39",
+        "Draw": "5.45",
+        "Away": "6.90"
+    },
+    {
+        "Home Team": "Manchester City",
+        "Away Team": "Arsenal",
+        "Home": "1.93",
+        "Draw": "3.65",
+        "Away": "3.85"
+    },
+    {
+        "Home Team": "Barcelona",
+        "Away Team": "Las Palmas",
+        "Home": "1.28",
+        "Draw": "6.10",
+        "Away": "9.75"
+    },
+    {
+        "Home Team": "Girona",
+        "Away Team": "Real Betis",
+        "Home": "1.81",
+        "Draw": "3.80",
+        "Away": "4.25"
+    },
+    {
+        "Home Team": "Real Madrid",
+        "Away Team": "Athletic Bilbao",
+        "Home": "1.59",
+        "Draw": "4.15",
+        "Away": "5.60"
+    },
+    {
+        "Home Team": "Villarreal",
+        "Away Team": "Atletico Madrid",
+        "Home": "3.10",
+        "Draw": "3.65",
+        "Away": "2.22"
+    },
+    {
+        "Home Team": "Bayer Leverkusen",
+        "Away Team": "Hoffenheim",
+        "Home": "1.23",
+        "Draw": "6.70",
+        "Away": "11.50"
+    },
+    {
+        "Home Team": "RB Leipzig",
+        "Away Team": "Mainz",
+        "Home": "1.38",
+        "Draw": "5.20",
+        "Away": "7.50"
+    },
+    {
+        "Home Team": "Bayern Munchen",
+        "Away Team": "Dortmund",
+        "Home": "1.43",
+        "Draw": "5.50",
+        "Away": "5.80"
+    },
+    {
+        "Home Team": "Stuttgart",
+        "Away Team": "Heidenheim",
+        "Home": "1.27",
+        "Draw": "6.10",
+        "Away": "10.00"
+    },
+    {
+        "Home Team": "Napoli",
+        "Away Team": "Atalanta",
+        "Home": "2.18",
+        "Draw": "3.45",
+        "Away": "3.30"
+    },
+    {
+        "Home Team": "Lazio",
+        "Away Team": "Juventus",
+        "Home": "2.95",
+        "Draw": "3.05",
+        "Away": "2.60"
+    },
+    {
+        "Home Team": "Fiorentina",
+        "Away Team": "Milan",
+        "Home": "2.80",
+        "Draw": "3.25",
+        "Away": "2.60"
+    },
+    {
+        "Home Team": "Inter",
+        "Away Team": "Empoli",
+        "Home": "1.22",
+        "Draw": "6.40",
+        "Away": "13.00"
+    },
+    {
+        "Home Team": "Lille",
+        "Away Team": "Lens",
+        "Home": "2.20",
+        "Draw": "3.35",
+        "Away": "3.40"
+    },
+    {
+        "Home Team": "Metz",
+        "Away Team": "Monaco",
+        "Home": "4.95",
+        "Draw": "3.90",
+        "Away": "1.69"
+    },
+    {
+        "Home Team": "Lyon",
+        "Away Team": "Reims",
+        "Home": "2.12",
+        "Draw": "3.50",
+        "Away": "3.45"
+    },
+    {
+        "Home Team": "Marseille",
+        "Away Team": "Paris SG",
+        "Home": "3.25",
+        "Draw": "3.70",
+        "Away": "2.12"
+    },
+    {
+        "Home Team": "NEC Nijmegen",
+        "Away Team": "PSV",
+        "Home": "6.40",
+        "Draw": "5.00",
+        "Away": "1.43"
+    },
+    {
+        "Home Team": "Feyenoord",
+        "Away Team": "Utrecht",
+        "Home": "1.33",
+        "Draw": "5.10",
+        "Away": "9.00"
+    },
+    {
+        "Home Team": "Benfica",
+        "Away Team": "Chaves",
+        "Home": "1.12",
+        "Draw": "8.50",
+        "Away": "21.00"
+    },
+    {
+        "Home Team": "Estrela",
+        "Away Team": "Sporting",
+        "Home": "11.50",
+        "Draw": "5.70",
+        "Away": "1.26"
+    },
+    {
+        "Home Team": "Estoril",
+        "Away Team": "Porto",
+        "Home": "8.25",
+        "Draw": "5.20",
+        "Away": "1.35"
+    }
+]

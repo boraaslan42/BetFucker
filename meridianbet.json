@@ -1,0 +1,163 @@
+[
+    {
+        "Home Team": "Bristol City",
+        "Away Team": "Leicester City",
+        "Home": "5.00",
+        "Draw": "3.95",
+        "Away": "1.70"
+    },
+    {
+        "Home Team": "Millwall ",
+        "Away Team": "West Bromwich Albion",
+        "Home": "3.05",
+        "Draw": "2.95",
+        "Away": "2.55"
+    },
+    {
+        "Home Team": "Cardiff City",
+        "Away Team": "Sunderland ",
+        "Home": "2.55",
+        "Draw": "3.00",
+        "Away": "3.00"
+    },
+    {
+        "Home Team": "Norwich City",
+        "Away Team": "Plymouth Argyle",
+        "Home": "1.50",
+        "Draw": "4.60",
+        "Away": "6.40"
+    },
+    {
+        "Home Team": "Hull City",
+        "Away Team": "Stoke City",
+        "Home": "1.98",
+        "Draw": "3.50",
+        "Away": "3.75"
+    },
+    {
+        "Home Team": "Preston North End",
+        "Away Team": "Rotherham United",
+        "Home": "1.53",
+        "Draw": "4.00",
+        "Away": "6.60"
+    },
+    {
+        "Home Team": "Sheffield Wednesday",
+        "Away Team": "Swansea City",
+        "Home": "2.47",
+        "Draw": "3.30",
+        "Away": "2.85"
+    },
+    {
+        "Home Team": "Southampton ",
+        "Away Team": "Middlesbrough ",
+        "Home": "1.53",
+        "Draw": "4.90",
+        "Away": "5.40"
+    },
+    {
+        "Home Team": "Huddersfield Town",
+        "Away Team": "Coventry City",
+        "Home": "3.10",
+        "Draw": "3.40",
+        "Away": "2.28"
+    },
+    {
+        "Home Team": "Queens Park Rangers",
+        "Away Team": "Birmingham City",
+        "Home": "2.06",
+        "Draw": "3.40",
+        "Away": "3.60"
+    },
+    {
+        "Home Team": "Blackburn Rovers",
+        "Away Team": "Ipswich Town",
+        "Home": "3.75",
+        "Draw": "3.90",
+        "Away": "1.93"
+    },
+    {
+        "Home Team": "Watford ",
+        "Away Team": "Leeds United",
+        "Home": "6.00",
+        "Draw": "4.50",
+        "Away": "1.53"
+    },
+    {
+        "Home Team": "Cadiz ",
+        "Away Team": "Granada ",
+        "Home": "2.05",
+        "Draw": "3.30",
+        "Away": "4.00"
+    },
+    {
+        "Home Team": "Gil Vicente Barcelos",
+        "Away Team": " Famalicao",
+        "Home": "2.40",
+        "Draw": "3.15",
+        "Away": "3.05"
+    },
+    {
+        "Home Team": " Benfica",
+        "Away Team": " Chaves",
+        "Home": "1.10",
+        "Draw": "9.60",
+        "Away": "21"
+    },
+    {
+        "Home Team": "Estrela Amadora",
+        "Away Team": "Sporting Lisbon",
+        "Home": "11",
+        "Draw": "6.20",
+        "Away": "1.23"
+    },
+    {
+        "Home Team": "Simba ",
+        "Away Team": " Ahly  (Egy)",
+        "Home": "2.80",
+        "Draw": "3.05",
+        "Away": "2.50"
+    },
+    {
+        "Home Team": " Egnatia Rrogozhine",
+        "Away Team": " Kukesi",
+        "Home": "1.83",
+        "Draw": "3.40",
+        "Away": "3.75"
+    },
+    {
+        "Home Team": " Tirana",
+        "Away Team": " Teuta",
+        "Home": "1.82",
+        "Draw": "3.45",
+        "Away": "3.70"
+    },
+    {
+        "Home Team": "Vllaznia Shkoder",
+        "Away Team": "Erzeni Shijak",
+        "Home": "1.51",
+        "Draw": "3.70",
+        "Away": "5.60"
+    },
+    {
+        "Home Team": " Annaba",
+        "Away Team": " Constantine",
+        "Home": "10",
+        "Draw": "5.00",
+        "Away": "1.23"
+    },
+    {
+        "Home Team": " Belouizdad",
+        "Away Team": "Olympique Akbou",
+        "Home": "1.30",
+        "Draw": "4.50",
+        "Away": "8.20"
+    },
+    {
+        "Home Team": " Mostaganem",
+        "Away Team": " Hussein Dey",
+        "Home": "1.31",
+        "Draw": "4.50",
+        "Away": "8.00"
+    }
+]

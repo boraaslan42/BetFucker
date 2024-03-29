@@ -1,0 +1,30 @@
+[
+    {
+        "Home Team": "Benfica",
+        "Away Team": "Chaves",
+        "Highest Home Odds": 1.12,
+        "Highest Draw Odds": 9.6,
+        "Highest Away Odds": 21.0,
+        "Source Home": "hatbet",
+        "Source Draw": "meridianbet",
+        "Source Away": "hatbet",
+        "Home Bet Multiple": 85.47008547008546,
+        "Draw Bet Multiple": 9.971509971509974,
+        "Away Bet Multiple": 4.5584045584045585,
+        "M": -4.464285714285707
+    },
+    {
+        "Home Team": "Estrela",
+        "Away Team": "Sporting",
+        "Highest Home Odds": 11.5,
+        "Highest Draw Odds": 6.2,
+        "Highest Away Odds": 1.26,
+        "Source Home": "hatbet",
+        "Source Draw": "meridianbet",
+        "Source Away": "hatbet",
+        "Home Bet Multiple": 8.345975513343731,
+        "Draw Bet Multiple": 15.480438452169825,
+        "Away Bet Multiple": 76.17358603448645,
+        "M": -4.189763797056926
+    }
+]
